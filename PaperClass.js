@@ -4,12 +4,12 @@ constructor(x, y,) {
     var options = { 
       'isStatic' : false,
       'restitution':0.3,
-      'friction':0.5,
-      'density':0.105
+      'friction':10,
+      'density':0.2650
     }
-    this.body = Bodies.circle(x, y, 70, options);
-    this.width = 70;
-    this.height = 70;
+    this.body = Bodies.circle(x, y, 45, options);
+    this.width = 100;
+    this.height = 100;
     this.image = loadImage("paper.png");
     World.add(world, this.body);
   }
