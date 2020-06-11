@@ -28,11 +28,13 @@ function draw(){
 
     ground.display();
     
+    paper.display();
+
     box1.display();
     box2.display();
     box3.display();
 	//paper1.display
-	paper.display();
+	
 }
 
 function keyPressed(){
